@@ -1,0 +1,21 @@
+
+
+ <form class="form-horizontal" action="/setservertime" method="post">
+<fieldset>
+     <div class="form-group">
+     <% if(typeof newMins !='undefined'){ %>
+        <input type="hidden" name="newMins" value="<%=newMins%>">
+      <%}%>
+      <label  class="col-lg-2 control-label">Set Server Time :</label>
+   
+       <input type="text"  class="form-control"  name="serverTime"  >
+   </div>
+   </div>
+   
+ <div class="form-group">
+     <div class="col-lg-10 col-lg-offset-2">
+      <button type="submit" class="btn btn-success">Submit</button>
+     </div>
+  </div>
+ </fieldset>
+ </form>

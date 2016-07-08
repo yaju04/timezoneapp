@@ -1,0 +1,20 @@
+{
+  "name": "timezone_assignment",
+  "version": "1.0.0",
+  "description": "My TimeZone Assignment.Pass different Timezone as query and get specific zone time example for IST use http://localhost:8080/getzonetime?timezone=UTC",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "timezone"
+  ],
+  "author": "yajuvendra",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "moment-timezone": "^0.5.4"
+  }
+}
